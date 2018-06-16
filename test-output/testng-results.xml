@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22748" started-at="2018-06-15T17:42:57Z" finished-at="2018-06-15T17:43:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22748" started-at="2018-06-15T17:42:57Z" finished-at="2018-06-15T17:43:20Z">
+      <class name="thirdNGproject.ThirdNGProject">
+        <test-method status="FAIL" signature="testCase01()[pri:0, instance:thirdNGproject.ThirdNGProject@41eaa2]" name="testCase01" duration-ms="153" started-at="2018-06-15T17:42:57Z" data-provider="Test" finished-at="2018-06-15T17:42:57Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: testCase01([])
+Arguments: [(java.lang.String) mngr137052,(java.lang.String) usupEzU]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testCase01([])
+Arguments: [(java.lang.String) mngr137052,(java.lang.String) usupEzU]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:982)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method status="PASS" signature="openHomePage()[pri:0, instance:thirdNGproject.ThirdNGProject@41eaa2]" name="openHomePage" is-config="true" duration-ms="4512" started-at="2018-06-15T17:42:57Z" finished-at="2018-06-15T17:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method status="PASS" signature="testCase04(java.lang.String, java.lang.String)[pri:0, instance:thirdNGproject.ThirdNGProject@41eaa2]" name="testCase04" duration-ms="1380" started-at="2018-06-15T17:43:02Z" data-provider="Test" finished-at="2018-06-15T17:43:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr137052]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[usupEzU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase04 -->
+        <test-method status="PASS" signature="closeHomePage()[pri:0, instance:thirdNGproject.ThirdNGProject@41eaa2]" name="closeHomePage" is-config="true" duration-ms="1078" started-at="2018-06-15T17:43:03Z" finished-at="2018-06-15T17:43:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHomePage -->
+        <test-method status="PASS" signature="openHomePage()[pri:0, instance:thirdNGproject.ThirdNGProject@41eaa2]" name="openHomePage" is-config="true" duration-ms="3716" started-at="2018-06-15T17:43:04Z" finished-at="2018-06-15T17:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method status="PASS" signature="testCase04(java.lang.String, java.lang.String)[pri:0, instance:thirdNGproject.ThirdNGProject@41eaa2]" name="testCase04" duration-ms="833" started-at="2018-06-15T17:43:08Z" data-provider="Test" finished-at="2018-06-15T17:43:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase04 -->
+        <test-method status="PASS" signature="closeHomePage()[pri:0, instance:thirdNGproject.ThirdNGProject@41eaa2]" name="closeHomePage" is-config="true" duration-ms="646" started-at="2018-06-15T17:43:09Z" finished-at="2018-06-15T17:43:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHomePage -->
+        <test-method status="PASS" signature="openHomePage()[pri:0, instance:thirdNGproject.ThirdNGProject@41eaa2]" name="openHomePage" is-config="true" duration-ms="3949" started-at="2018-06-15T17:43:09Z" finished-at="2018-06-15T17:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method status="PASS" signature="testCase04(java.lang.String, java.lang.String)[pri:0, instance:thirdNGproject.ThirdNGProject@41eaa2]" name="testCase04" duration-ms="821" started-at="2018-06-15T17:43:13Z" data-provider="Test" finished-at="2018-06-15T17:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase04 -->
+        <test-method status="PASS" signature="closeHomePage()[pri:0, instance:thirdNGproject.ThirdNGProject@41eaa2]" name="closeHomePage" is-config="true" duration-ms="675" started-at="2018-06-15T17:43:14Z" finished-at="2018-06-15T17:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHomePage -->
+        <test-method status="PASS" signature="openHomePage()[pri:0, instance:thirdNGproject.ThirdNGProject@41eaa2]" name="openHomePage" is-config="true" duration-ms="3424" started-at="2018-06-15T17:43:15Z" finished-at="2018-06-15T17:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method status="PASS" signature="testCase04(java.lang.String, java.lang.String)[pri:0, instance:thirdNGproject.ThirdNGProject@41eaa2]" name="testCase04" duration-ms="838" started-at="2018-06-15T17:43:18Z" data-provider="Test" finished-at="2018-06-15T17:43:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase04 -->
+        <test-method status="PASS" signature="closeHomePage()[pri:0, instance:thirdNGproject.ThirdNGProject@41eaa2]" name="closeHomePage" is-config="true" duration-ms="662" started-at="2018-06-15T17:43:19Z" finished-at="2018-06-15T17:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeHomePage -->
+      </class> <!-- thirdNGproject.ThirdNGProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
